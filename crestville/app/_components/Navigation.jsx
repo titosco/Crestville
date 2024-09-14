@@ -2,7 +2,7 @@
 import { Button } from "@/components/ui/button";
 import { UserPen } from "lucide-react";
 import Image from "next/image";
-import Crestville from "../images/Crestville.png"
+import Crestville from "../images/crestvilleApartment.png"
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import React, { useEffect } from "react";
@@ -19,8 +19,9 @@ const Navigation = () => {
     <div className="flex gap-5 items-center md:gap-10">
         <Image src={Crestville} width={60} height={60} alt="logo" className=" md:w-28 lg:w-36"/>
         <ul className="hidden md:flex gap-3 text-xs md:text-lg md:gap-10 lg:text-xl">
-            <Link href={'/'}><li className={`"hover:text-primary font-medium text-sm cursor-pointer" ${path=='/'&&'text-primary'}`}>About Us</li></Link>
-             <li className="hover:text-primary font-medium text-sm cursor-pointer">Services</li>
+        <Link href={'/'}><li className={`hover:text-primary font-medium text-sm cursor-pointer ${path === '/' && 'text-primary'}`}>About</li></Link>
+            <Link href={'/listings'}><li className={`hover:text-primary font-medium text-sm cursor-pointer ${path === '/listings' && 'text-primary'}`}>Service</li>
+          </Link>
         </ul>
     </div>
     <div className="flex gap-2 items-center">
