@@ -1,10 +1,16 @@
 import React from "react";
 import Navigation from "./_components/Navigation";
+import Footer from './_components/Footer';
+
 
 const Provider = ({children}) => {
   return <div> 
     <Navigation/>
-    {children}
+
+    <div className="mt-32 sm:mt-44 lg:mt-52">
+      {children}
+    </div>
+    <Footer/>
     </div>;
 };
 
