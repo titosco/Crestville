@@ -2,7 +2,7 @@
 import { Button } from "@/components/ui/button";
 import { UserPen } from "lucide-react";
 import Image from "next/image";
-import Crestville from "../images/crestvilleApartment.png"
+import Crestville from "../images/crestville-logo-white-1.png"
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import React, { useEffect } from "react";
