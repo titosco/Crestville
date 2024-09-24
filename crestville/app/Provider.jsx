@@ -7,7 +7,7 @@ const Provider = ({children}) => {
   return <div> 
     <Navigation/>
 
-    <div className="mt-32 sm:mt-44 lg:mt-40">
+    <div className="mt-28 sm:mt-44 lg:mt-40">
       {children}
     </div>
     <Footer/>

@@ -25,7 +25,7 @@ const Navigation = () => {
         </ul>
     </div>
     <div className="flex gap-2 items-center">
-        <Button className="flex px-2 gap-2 text-xs md:text-lg lg:text-xl"><UserPen/> Book now</Button>
+        <Button className="flex px-2 gap-2 text-xs md:text-lg lg:text-xl"><UserPen/> Book Now</Button>
         {isSignedIn?
           <UserButton />
           :
