@@ -58,7 +58,12 @@ module.exports = {
   				'4': 'hsl(var(--chart-4))',
   				'5': 'hsl(var(--chart-5))'
   			}
-  		}
+  		},
+		fontFamily: {
+			body: ['Quicksand'],
+			header: ['Old Standard TT'],
+			header_1: ['Dancing Script']
+		}
   	}
   },
   plugins: [require("tailwindcss-animate")],

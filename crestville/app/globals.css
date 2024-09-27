@@ -2,6 +2,8 @@
 @tailwind components;
 @tailwind utilities;
 
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Old+Standard+TT:ital,wght@0,400;0,700;1,400&family=Quicksand:wght@300..700&display=swap');
+
 :root {
   --foreground-rgb: 0, 0, 0;
 
@@ -15,7 +17,7 @@
   }
 }
 .features{
-  @apply flex
+  @apply flex gap-1
 }
 
 /* body {
