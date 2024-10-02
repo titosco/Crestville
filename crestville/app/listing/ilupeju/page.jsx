@@ -1,6 +1,6 @@
 import React from "react";
 import Image from 'next/image';
-import home from '../../images/ilupeju.jpeg'
+import home from '../../images/ilupeju_3.jpeg'
 import { BedDouble, BedSingle, MapPin, SmilePlus, UserPen,  } from "lucide-react";
 import { Button } from "@/components/ui/button";
 
@@ -8,26 +8,26 @@ const ilupeju = () => {
   return (
     <main className="mb-28">
         <div>
-          <div className="relative bg-black h-[250px] sm:h-[350px] md:h-[350px] lg:h-[550px]">
+          <div className="img-box">
               <Image
               alt=""
               src={home}
-              className="w-full h-[250px] sm:h-[350px]  md:h-[350px] lg:h-[550px] object-cover opacity-75"
+              className="img"
             />
-            <span className="relative text-white flex justify-center bottom-36 md:bottom-48 lg:bottom-80 text-3xl md:text-6xl lg:text-8xl font-header ">Crestville <span className="text-primary font-header_1">Apartments</span></span>
+            <span className="title ">Crestville <span className="title-span">Apartments</span></span>
         </div>
         <div className="flex flex-col max-w-4xl mx-auto p-3 my-7 gap-4">
           <p className="text-xl md:text-2xl font-semibold">
             <span><strong>Crestville illupeju</strong> - # 45,000 / Day</span>
-            <span className="flex text-sm items-center mt-5 md:mt-10 md:text-xl gap-2 font-light"><MapPin />    14 Arikewuyo St, Ilupeju, Lagos 100253, Lagos</span>
-            <Button className="flex px-2 text-xs gap-2 items-center mt-4 md:mt-5 md:text-lg lg:text-xl" ><UserPen/>Book Now</Button>
+            <span className="address"><MapPin />    14 Arikewuyo St, Ilupeju, Lagos 100253, Lagos</span>
+            <Button className="btn" ><UserPen/>Book Now</Button>
           </p>
           <p  className="text-slate-800">
-            <span className="text-base mt-5 md:mt-10 md:text-xl font-light">
+            <span className="desc">
               <strong>Description - </strong>Our 1-bedroom and 2-bedroom at ilupeju comes with a comfortable bed, complete with high-quality duvets that gaurantees your night to be good and restful. We offer 24-hours Uninterupted Light, a full Equipped Kitchens, Smart TV, DSTV, and so much more, our Facility staffs are at your service for anything you may need. We offer a prefect blend of  tranqility and luxury you cozy and relaxed in an environment built for your everyday living experience
             </span>
           </p>
-            <ul className="flex mt-3 md:mt-4 gap-3 text-primary">
+            <ul className="features-header">
               <li className="features"><BedSingle/>1-Bed</li>
               <li className="features"><BedDouble/>2-Bed</li>
               <li className="features"><SmilePlus/>Spa</li>
