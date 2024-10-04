@@ -16,9 +16,9 @@ const ilupeju = () => {
             />
             <span className="title ">Crestville <span className="title-span">Apartments</span></span>
         </div>
-        <div className="flex flex-col max-w-4xl mx-auto p-3 my-7 gap-4">
+        <div className="container">
           <p className="text-xl md:text-2xl font-semibold">
-            <span><strong>Crestville illupeju</strong> - # 45,000 / Day</span>
+            <span><strong>Crestville illupeju</strong> - #45,000 / Day</span>
             <span className="address"><MapPin />    14 Arikewuyo St, Ilupeju, Lagos 100253, Lagos</span>
             <Button className="btn" ><UserPen/>Book Now</Button>
           </p>
