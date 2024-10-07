@@ -18,7 +18,7 @@ const ilupeju = () => {
         </div>
         <div className="container">
           <p className="text-xl md:text-2xl font-semibold">
-            <span><strong>Crestville illupeju</strong> - #45,000 / Day</span>
+            <span><strong>Crestville illupeju</strong> - #40,000 / Day</span>
             <span className="address"><MapPin />    14 Arikewuyo St, Ilupeju, Lagos 100253, Lagos</span>
             <Button className="btn" ><UserPen/>Book Now</Button>
           </p>
