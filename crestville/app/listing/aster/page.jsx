@@ -19,7 +19,7 @@ const aster = () => {
       <div className="container">
         <p className="text-xl md:text-2xl font-semibold">
           <span><strong>Aster Residence</strong> - #50,000 / Day</span>
-          <span className="address"><MapPin /> Radiyalla Olusesi Street Lekki II Lagos, Lagos</span>
+          <span className="address"><MapPin /> Radiyallahu Olusesi Street Lekki II Lagos, Lagos</span>
           <Button className="btn" ><UserPen/>Book Now</Button>
         </p>
         <p  className="text-slate-800">
@@ -34,7 +34,7 @@ const aster = () => {
           </ul>
           <div>
             <span>
-              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4196.392560216896!2d3.343443775218818!3d6.506502323360179!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x103b8da52ad8052d%3A0xacc53edc13638929!2sCrestville%20Apartments%20Surulere!5e1!3m2!1sen!2sng!4v1728283215959!5m2!1sen!2sng" width="100%" height="450" className="border:0 mt-5" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4196.968639950263!2d3.5363164752185208!3d6.4371690241601005!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x103bf65576c54445%3A0xe6bfec74ab572da8!2sRadiyallahu%20Olusesi%20St%2C%20Lekki%20Penninsula%20II%2C%20Lekki%20106104%2C%20Lagos!5e1!3m2!1sen!2sng!4v1729532829506!5m2!1sen!2sng" width="100%" height="450" className="border:0 mt-5" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
             </span>
           </div>
       </div>

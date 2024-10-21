@@ -67,7 +67,7 @@
   @apply relative w-full h-full
 }
 .img-front{
-  @apply w-full h-48 sm:h-56 object-cover
+  @apply w-full h-48 sm:h-56 object-cover hover:scale-105 duration-300
 }
 .card-title{
   @apply text-xl md:text-2xl font-semibold text-center

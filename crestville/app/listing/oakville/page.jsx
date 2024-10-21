@@ -34,7 +34,7 @@ const oakville = () => {
         </ul>
         <div>
           <span>
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4196.392560216896!2d3.343443775218818!3d6.506502323360179!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x103b8da52ad8052d%3A0xacc53edc13638929!2sCrestville%20Apartments%20Surulere!5e1!3m2!1sen!2sng!4v1728283215959!5m2!1sen!2sng" width="100%" height="450" className="border:0 mt-5" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d299.39035534653414!2d3.346789921383907!3d6.509915169470358!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x103b8c248d237ebf%3A0x5b2f62823a7fef55!2s28%20Abayomi%20St%2C%20Ikate%2C%20Lagos%20101241%2C%20Lagos!5e1!3m2!1sen!2sng!4v1729532496142!5m2!1sen!2sng"  width="100%" height="450" className="border:0 mt-5" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
           </span>
         </div>
     </div>

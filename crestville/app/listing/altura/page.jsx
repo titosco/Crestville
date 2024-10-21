@@ -14,7 +14,7 @@ const altura = () => {
           src={home}
           className="img"
         />
-        <span className="title ">Crestville <span className="title-span">Apartments</span></span>
+        <span className="title">Crestville <span className="title-span">Apartments</span></span>
     </div>
     <div className="container">
       <p className="text-xl md:text-2xl font-semibold">
@@ -34,7 +34,7 @@ const altura = () => {
         </ul>
         <div>
           <span>
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4196.392560216896!2d3.343443775218818!3d6.506502323360179!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x103b8da52ad8052d%3A0xacc53edc13638929!2sCrestville%20Apartments%20Surulere!5e1!3m2!1sen!2sng!4v1728283215959!5m2!1sen!2sng" width="100%" height="450" className="border:0 mt-5" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d1048.899240495176!2d3.358857269578552!3d6.60106333180142!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zNsKwMzYnMDMuOCJOIDPCsDIxJzM0LjIiRQ!5e1!3m2!1sen!2sng!4v1729532232124!5m2!1sen!2sng" width="100%" height="450" className="border:0 mt-5" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
           </span>
         </div>
     </div>
