@@ -58,7 +58,7 @@
   @apply flex mt-3 md:mt-4 gap-3 text-primary
 }
 .card{
-  @apply bg-white rounded overflow-hidden shadow-sm relative hover:shadow-lg 
+  @apply bg-white rounded overflow-hidden shadow-sm relative hover:shadow-lg mb-4
 }
 .card-inner{
   @apply w-full h-full relative 

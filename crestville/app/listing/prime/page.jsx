@@ -1,7 +1,8 @@
 import Image from "next/image";
 import React from "react";
-import home from '../../images/prime_1.jpeg'
+import home from '../../images/prime_2.jpeg'
 import { BedDouble, BedSingle, EthernetPort, MapPin, UserPen } from "lucide-react";
+import { Button } from "@/components/ui/button";
 
 const prime = () => {
   return(
@@ -18,7 +19,7 @@ const prime = () => {
         <div className="container">
           <p className="text-xl md:text-2xl font-semibold">
             <span><strong>Crestville Prime</strong> - #45,000 / Day</span>
-            <span className="address"><MapPin />    14 Arikewuyo St, Ilupeju, Lagos 100253, Lagos</span>
+            <span className="address"><MapPin /> 18 Memudu Aremu St, Ikate, Lagos 101283, Lagos</span>
             <Button className="btn" ><UserPen/>Book Now</Button>
           </p>
           <p  className="text-slate-800">
