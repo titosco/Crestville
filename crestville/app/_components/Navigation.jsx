@@ -28,7 +28,7 @@ const Navigation = () => {
     </div>
     <div className=" md:flex">
     <ul className="hidden  items-center md:flex text-xs md:text-lg md:gap-28 lg:text-xl">
-        <Link href={'/'}><li className={`hover:text-primary font-medium text-sm cursor-pointer ${path === '/' && 'text-primary'}`}>About</li></Link>
+        <Link href={'/about'}><li className={`hover:text-primary font-medium text-sm cursor-pointer ${path === '/about' && 'text-primary'}`}>About</li></Link>
             <Link href={'/listings'}><li className={`hover:text-primary font-medium text-sm cursor-pointer ${path === '/listings' && 'text-primary'}`}>Service</li>
           </Link>
         </ul>
