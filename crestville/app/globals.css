@@ -1,3 +1,5 @@
+@import "slick-carousel/slick/slick.css";
+@import "slick-carousel/slick/slick-theme.css";
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Old+Standard+TT:ital,wght@0,400;0,700;1,400&family=Quicksand:wght@300..700&&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 
 @tailwind base;
@@ -79,6 +81,58 @@
   @apply flex text-sm gap-2 font-light mt-3
 }
 
+/* another slide */
+.slide-cover{
+  @apply p-4  
+}
+.slides{
+  @apply h-64 rounded-3xl relative overflow-hidden hover:scale-110 duration-300 shadow-lg sm:h-72 md:h-80
+}
+.slide-img{
+  @apply object-cover
+}
+/* slider */
+.swiper-slide{
+  /* width: min-content !important; */
+  @apply   relative
+  
+}
+.swiper-container{
+  @apply h-96 py-8 px-0 relative
+}
+.swiper-slide-shadow-left{
+  @apply hidden
+}
+.swiper-slide-shadow-right{
+  @apply hidden
+}
+.slider-controller{
+  @apply relative flex items-center bottom-8 justify-center
+}
+.slider-controller .swiper-button-next{
+  @apply left-3/4 -translate-x-3/4
+}
+.slider-controller .swiper-button-prev{
+  @apply left-1/4 -translate-x-1/4
+}
+.slider-controller .slider-arrow{
+  @apply text-primary w-14 h-14 rounded-full left-1/3 -translate-x-1/3 shadow-md
+}
+.slide-arrow{
+  @apply text-4xl text-primary
+}
+.slider-controller .slider-arrow::after{
+  content: '';
+}
+.swiper-pagination{
+  @apply relative w-60 bottom-4
+}
+.swiper-pagination .swiper-pagination-bullet{
+  @apply shadow-md
+}
+.swiper-pagination .swiper-pagination-bullet-active{
+  @apply text-primary
+}
 /* body {
   color: rgb(var(--foreground-rgb));
   background: linear-gradient(
