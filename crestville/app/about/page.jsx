@@ -1,6 +1,7 @@
 import Link from "next/link";
 import React from "react";
 import Slide from './slide';
+import Divide from './divide'
 
 const About = () => {
   return (
@@ -20,6 +21,7 @@ const About = () => {
         </Link>
       </div>
       <Slide />
+      <Divide/>
     </main>
   );
 };
